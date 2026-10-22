@@ -2,7 +2,7 @@ def main():
     print("Простой калькулятор")
     first = int(input("Введите первое целое число: "))
     second = int(input("Введите второе целое число: "))
-    print(f"Вы ввели числа: {first} и {second}")
+    print(f"Сумма чисел: {first + second}")
 
 
 if __name__ == "__main__":
